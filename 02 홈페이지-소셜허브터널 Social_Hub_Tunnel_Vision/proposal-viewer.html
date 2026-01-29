@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>협업제안서 - 대전-옥천 소셜허브터널</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: #1a1a1a; }
+
+.pdf-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 상단 도구 모음 덮개 */
+.pdf-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 40px;
+  background: #323639;
+  z-index: 10;
+}
+
+/* 하단 바 덮개 (일부 브라우저) */
+.pdf-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 16px;
+  background: #2b2b2b;
+  z-index: 10;
+}
+
+.pdf-wrap iframe {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 56px);
+  border: none;
+}
+</style>
+</head>
+<body>
+<div class="pdf-wrap">
+  <iframe src="proposal.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&view=FitH"></iframe>
+</div>
+</body>
+</html>
