@@ -1,15 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git init:*)",
-      "Bash(git remote add:*)",
+      "WebFetch(domain:jaiwshim-project.github.io)",
+      "Bash(git remote set-url:*)",
+      "Bash(git status:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git config:*)",
-      "Bash(git branch:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n소셜허브터널 제안 홈페이지 및 PDF 뷰어 추가\n\n- 소시얼허브 → 소셜허브 명칭 수정\n- 프리미엄 디자인 적용 \\(골드 액센트, 글래스모피즘\\)\n- 6-in-1 AI 도슨트 시스템 섹션 추가\n- 반 고흐 작품 2점 및 QR코드 체험 추가\n- AI 아트시네마 YouTube 영상 연동\n- PDF 협업제안서 인라인 뷰어 섹션 추가\n- 각 섹션별 고유 배경색 적용\n- 텍스트 대비 개선 \\(밝은/어두운 배경 대응\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git push:*)",
-      "Bash(git submodule:*)",
-      "Bash(git rm:*)"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n텍스트 가독성 대폭 개선: opacity 및 색상 투명도 수정\n\n- 모든 텍스트 opacity 0.5~0.7을 1로 변경\n- 어두운 배경 텍스트 rgba 투명도 0.95로 통일\n- 밝은 배경 설명 텍스트 #4a4a4a → #2a2a2a\n- 골드 라벨 #7a5a12 → #8b6914\n- 드롭다운 메뉴 최적화 및 흰색 메뉴 적용\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

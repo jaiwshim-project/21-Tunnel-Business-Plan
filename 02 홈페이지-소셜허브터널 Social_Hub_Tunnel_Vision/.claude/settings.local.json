@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:img.youtube.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n소셜허브터널 비전 유튜브 영상 카드 추가\n\nAI 아트시네마 미리보기 섹션에 소셜허브터널 비전 영상\\(rSHo9y6icN8\\) 카드 추가\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(git rm:*)"
+    ]
+  }
+}
