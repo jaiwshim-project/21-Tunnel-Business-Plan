@@ -7,7 +7,9 @@
       "Bash(git push)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n소셜허브터널 -> 소시얼허브터널 명칭 통일\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n치맥브라더스 플로팅 버튼 추가 \\(우측 하단\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
