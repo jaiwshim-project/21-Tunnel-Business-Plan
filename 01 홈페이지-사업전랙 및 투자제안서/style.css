@@ -25,6 +25,40 @@
     color: #fff;
 }
 
+/* 기본 TalkerSDK 버튼 숨기기 */
+#talker-sdk-btn,
+.talker-sdk-btn,
+[id^="talker"] button {
+    display: none !important;
+}
+
+.floating-btn-right {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    background: linear-gradient(135deg, #4a90d9, #2c6fbb);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.floating-btn-right:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    color: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
